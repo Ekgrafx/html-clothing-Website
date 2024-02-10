@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  background-color: rgb(226, 226, 226);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+nav {
+  background-color: #1f1f1f;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+li,
+a {
+  color: rgb(237, 237, 237);
+  list-style-type: none;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 20px;
+}
+b {
+  text-transform: uppercase;
+  font-style: italic;
+  color: #f2ff00;
+  padding-left: 25px;
+  float: inline-start;
+  font-size: xx-large;
+  padding-top: 10px;
+}
+/* Section part of the website */
+section {
+  border-style: solid;
+  border-top: 1px 4px;
+  border-left: 0;
+  border-color: #f2ff00;
+  border-bottom: 0;
+  border-right: 0;
+}
+h1 {
+  font-size: xx-large;
+  top: 30px;
+  color: white;
+  margin: 0;
+  text-shadow: #000000 1px 3px;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+}
+p {
+  text-transform: capitalize;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(204, 255, 0);
+  text-shadow: #000000 2px 6px;
+}
+img {
+  z-index: -1;
+  display: flex;
+  width: 100%;
+  height: 40vh;
+  background-repeat: no-repeat;
+}
+#flex {
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  padding-top: 9em;
+  padding-left: 5em;
+  position: fixed;
+}
+#uni {
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  padding-top: 19em;
+  padding-left: 5em;
+  position: fixed;
+}
+button {
+  background-color: rgb(246, 255, 0);
+  font-size: larger;
+  width: 7em;
+  color: rgb(0, 0, 0);
+  border-radius: 4em;
+  border-color: #000000;
+  box-shadow: #ffffff 1px 4px;
+  padding: 3px;
+  text-transform: capitalize;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+button:hover {
+  color: rgb(255, 255, 255);
+  background-color: red;
+}
+a:hover {
+  background-color: rgb(228, 249, 0);
+  padding: 20px;
+  color: black;
+}
+main {
+  background-color: #4d4d4d;
+  height: 50vh;
+}
+.image{
+  width: 200px;
+  justify-content: center;
+  display: flex;  
+  padding-left: 10px;
+  padding-top: 10px;
+}
